@@ -69,7 +69,7 @@ button {
   font-weight: 600;
 }
 .attribution {
-  margin-top: 10px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 375px) {
@@ -91,9 +91,6 @@ button {
     width: 80vw;
     margin-left: 0px;
   }
-  /* h1{
-    font-size: 35px;
-  } */
   p {
     font-size: 16px;
   }
@@ -106,6 +103,8 @@ button {
   }
   .attribution {
     width: 80vw;
+    font-size: 20px;
     margin-left: 10vw;
+    margin-top: 120vw;
   }
 }
