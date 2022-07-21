@@ -59,6 +59,9 @@ p,
 button {
   margin-left: 1.5vw;
 }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 button {
   background-color: hsl(158, 36%, 37%);
   border: none;
@@ -68,8 +71,10 @@ button {
   color: white;
   font-weight: 600;
 }
+
 .attribution {
   font-size: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 375px) {
@@ -103,7 +108,7 @@ button {
   }
   .attribution {
     width: 80vw;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10vw;
     margin-top: 120vw;
   }
